@@ -1,0 +1,5 @@
+FOTO BANJIR BERANDA
+Urutan pemuatan:
+ 1. assets/banjir.jpg  <- (opsional) taruh foto banjir Anda sendiri, JPG lebar >= 1000px
+ 2. Foto banjir jalan Indonesia dari Pexels (perlu internet), lihat HERO.srcs di js/ui.js
+ 3. Ilustrasi banjir bawaan (selalu ada, tanpa internet)

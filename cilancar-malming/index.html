@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#D4E8F8" />
+  <title>CILANCAR – Sistem Pelaporan Drainase &amp; Banjir</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script>
+    (function () { try { var s = JSON.parse(localStorage.getItem('cilancar.html.settings') || '{}'); var t = s.theme || 'system';
+      document.documentElement.dataset.theme = (t === 'dark' || (t === 'system' && matchMedia('(prefers-color-scheme: dark)').matches)) ? 'dark' : 'light'; } catch (e) {} })();
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+  <div id="toasts" aria-live="polite"></div>
+  <div id="modal-root"></div>
+  <noscript>Aplikasi ini membutuhkan JavaScript.</noscript>
+  <script src="js/core.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/pages/00-shared.js"></script>
+  <script src="js/pages/00-login.js"></script>
+  <script src="js/pages/01-dashboard.js"></script>
+  <script src="js/pages/02-buat-laporan.js"></script>
+  <script src="js/pages/03-riwayat-laporan.js"></script>
+  <script src="js/pages/04-peta-drainase.js"></script>
+  <script src="js/pages/05-detail-laporan.js"></script>
+  <script src="js/pages/06-peringatan-otomatis.js"></script>
+  <script src="js/pages/07-chat-cs-dinas.js"></script>
+  <script src="js/pages/08-pengaturan-akun.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

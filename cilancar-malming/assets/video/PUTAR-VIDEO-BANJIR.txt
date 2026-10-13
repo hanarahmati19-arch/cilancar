@@ -1,0 +1,21 @@
+VIDEO LATAR HALAMAN LOGIN
+=========================
+Taruh video banjir NYATA Anda di folder ini dengan nama:
+
+    banjir.mp4      (utama, disarankan H.264, 1080p, 10-30 detik, di bawah ~15 MB)
+    banjir.webm     (opsional)
+    banjir-poster.jpg  (opsional, gambar sebelum video muncul)
+
+Halaman login otomatis memutarnya (diam/mute, berulang). Tanpa file ini, yang tampil adalah animasi hujan & genangan bawaan.
+
+Sumber video banjir gratis (boleh dipakai komersial):
+  - pexels.com/videos   -> cari "flood", "banjir", "flooded street"
+  - pixabay.com/videos  -> cari "flood"
+  - commons.wikimedia.org -> cari "banjir Jakarta" / "flood" (cek lisensinya)
+
+Mengganti daftar file / memakai alamat video online: ubah LOGIN_VIDEO.srcs di js/pages/00-login.js
+
+CATATAN: secara bawaan halaman login memutar video Pexels
+  https://www.pexels.com/id-id/video/orang-orang-jalan-berjalan-area-9249395/
+langsung dari internet. Supaya bisa offline: unduh videonya (Pexels > Unduh Gratis) dan simpan sebagai
+assets/video/banjir.mp4 -> otomatis dipakai lebih dulu.
